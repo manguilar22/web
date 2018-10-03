@@ -1,0 +1,23 @@
+{
+
+	"Home": {
+		"info" : "Open-source is something I am VERY PASSIONATE about. The collection of the world's effort to make modular software accessible to all. This philosphy has motivated me to become familiar with UNIX-based systems. Reason being a majority of eneterprise environments rely on scalable and secure systems to protect against intrusion."	
+	},
+
+	"DevOps": {
+		"info" : "Development and operations is a philosphy practiced in technology to create savings for an orginization and optimize products being developed. This includes a plrthora of technologies that are made to work togetherto improve production. Continous integratation of code, that can be encapsulated into containers for additional security. Monotoring those application to see resources taken up by the CPU."
+	},
+
+	"Software" : {
+		"info" : "Software development allows one to interopolate open-source technology with commercial applications. Leevraging the benefits of pre-compiled libraries to facilitate the task, Computer Science, transfers mathematical concepts to programming applications in pursuit of optimal performance. There are diffrent paradigms in programming to solve problems; such as functional, procedural, imperative,logic ,and reactive."
+	},
+	
+	"Security" : {
+		"info" : "Security is of the up most importance , because of the power of computiong now to execute brute-force attacks. Furthermore, applications must be probed and tested for vunerabilities contanlty. Knbowledge in this field is required in both, to defend and attack. Security, is of critical importance in  order to mantain a successful reputation of data integrity. "
+	},
+
+	"Cloud" : {
+		"info" : "Orginizations across the world are adopting cloud for several reasons. Cloud computing allows orginizations with sensitive data to export to third-party companies. Ultimately, adding a extra layer of secuirty to valuable inforam tion. In escence cloud computinf can save a  millions of dollars by moving onsite operations to out-of-site. Provisioning resources on a set model, like pay as you go." 
+	}
+
+}
