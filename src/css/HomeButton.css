@@ -1,0 +1,8 @@
+.HomeButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    padding: 10px 10px 10px;
+}
