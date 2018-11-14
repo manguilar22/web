@@ -1,6 +1,6 @@
 import React from "react";
-import {ButtonGroup,Button,Glyphicon} from "react-bootstrap";
-import {AwesomeButton} from "react-awesome-button";
+import {Glyphicon} from "react-bootstrap";
+import {AwesomeButtonSocial,AwesomeButton} from "react-awesome-button";
 import "react-awesome-button/src/styles/styles.scss";
 import "../../css/HomeButton.css";
 
@@ -8,11 +8,12 @@ const URL = "https://github.com/manguilar22/";
 const HomeButton = (props) => {
     return (
         <div className={"HomeButton"}>
-        <ButtonGroup>
-            <Button bsStyle={"primary"} bsSize={"large"} onClick={props.trigger}><Glyphicon glyph={"star"}/> Mission</Button>
-            <AwesomeButton type={"github"} href={URL} bubbles={true}><Glyphicon glyph={"book"}/> Github</AwesomeButton>
-            <AwesomeButton type={"instagram"} bubbles={true}><Glyphicon glyph={"camera"}/> Instagram </AwesomeButton>
-        </ButtonGroup>
+        <ul>
+            <li><AwesomeButton type={"primary"} size={"large"} bubbles={true} action={props.trigger}>
+                <Glyphicon glyph={"book"}/> Mission</AwesomeButton></li>
+            <li><AwesomeButtonSocial type={"github"} href={URL} bubbles={true} size={"large"}>Github</AwesomeButtonSocial></li>
+            <li><AwesomeButtonSocial type={"instagram"} bubbles={true} size={"large"}>Instagram </AwesomeButtonSocial></li>
+        </ul>
         </div>
     );
 };

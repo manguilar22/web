@@ -1,6 +1,6 @@
 import React,{Component} from "react";
-import MissionStatement from "./func/MissionStatement";
-import Home from "./hoc/HOME";
+import MissionStatement from "../func/MissionStatement";
+import Home from "../hoc/HOME";
 
 export default class RenderHome extends Component {
     constructor(props) {

@@ -16,5 +16,5 @@ const App = createReactClass({
           </MemoryRouter>
       )
     }
-})
+});
 export default App;

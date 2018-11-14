@@ -10,7 +10,7 @@ export default class Navigation extends Component {
                     <Navbar inverse collapseOnSelect>
                         <Navbar.Header>
                             <Navbar.Brand>
-                                <a id={"brandName"} href={"#"}>Aguilar</a>
+                                <a id={"brandName"} href={"/"}>Aguilar</a>
                             </Navbar.Brand>
                             <Navbar.Toggle/>
                         </Navbar.Header>
@@ -25,7 +25,7 @@ export default class Navigation extends Component {
                                 </NavDropdown>
                             </Nav>
                             <Nav pullRight>
-                                <NavItem eventKey={1} href={"#"}>PIC.</NavItem>
+                                <NavItem eventKey={1}>PIC.</NavItem>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
