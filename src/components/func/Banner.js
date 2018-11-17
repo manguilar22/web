@@ -1,6 +1,6 @@
 import React from "react";
 import {ResponsiveEmbed} from "react-bootstrap";
-import banner from "../../images/banner.svg";
+import banner from "../../css/images/banner.svg";
 import "../../css/Banner.css";
 const Banner = () => {
     return (

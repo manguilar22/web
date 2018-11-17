@@ -1,4 +1,4 @@
-import icon from "../../images/logo.svg";
+import icon from "../../css/images/logo.svg";
 import {Glyphicon} from "react-bootstrap";
 import React from "react";
 import "../../css/App.css";
