@@ -3,24 +3,19 @@
 		"info" : "Open-source is something I am VERY PASSIONATE about. The collection of the world's effort to make modular software accessible to all. This philosphy has motivated me to become familiar with UNIX-based systems. Reason being a majority of eneterprise environments rely on scalable and secure systems to protect against intrusion."	
 	},
 	"DevOps": {
-		"topics": [
-			{
+		"topics": [{
 			"title": "DevOps",
 			"info": "Development and operations is a philosphy practiced in technology to create savings for an orginization and optimize products being developed. This includes a plrthora of technologies that are made to work togetherto improve production. Continous integratation of code, that can be encapsulated into containers for additional security.Monotoring those application to see resources taken up by the CPU."
-			},
-			{
+			}, {
 				"title": "NetDevOps",
 				"info": ""
-			},
-			{
+			}, {
 				"title": "Docker",
 				"info": ""
-			},
-			{
+			}, {
 				"title": "LXC | LXD",
 				"info": ""
-			},
-			{
+			}, {
 				"title": "CoreOS",
 				"info": ""
 			}
@@ -47,8 +42,8 @@
 	},
 	"Security" : {
 		"info" : "Security is of the up most importance , because of the power of computiong now to execute brute-force attacks. Furthermore, applications must be probed and tested for vunerabilities contanlty. Knbowledge in this field is required in both, to defend and attack. Security, is of critical importance in  order to mantain a successful reputation of data integrity. ",
-		"Tor":{},
-		"Metasploit":{},
+		"Tor":{ "info": "..."},
+		"Metasploit":{ "info": "..."},
 		"Operating Systems":{
 			"topics": [ {"title": "Kali Linux"},{"title":"Tails"}]
 		}

@@ -22,6 +22,7 @@ export default class Navigation extends Component {
                                     <MenuItem eventKey={3.2}><NavLink to={"/DevOps"}>DevOps</NavLink></MenuItem>
                                     <MenuItem eventKey={3.3}><NavLink to={"/Cloud"}>Cloud</NavLink></MenuItem>
                                     <MenuItem eventKey={3.4}><NavLink to={"/Software"}>Software</NavLink></MenuItem>
+                                    <MenuItem eventKey={3.5}><NavLink to={"/OS"}>Operating Systems</NavLink></MenuItem>
                                 </NavDropdown>
                             </Nav>
                             <Nav pullRight>
