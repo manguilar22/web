@@ -1,0 +1,11 @@
+ol {
+    list-style-type: square;
+}
+
+blockquote {
+    color: white;
+}
+
+.header {
+    font-size: 25px;
+}
