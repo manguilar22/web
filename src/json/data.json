@@ -24,17 +24,17 @@
 	"Software" : {
 		"info" : "Software development allows one to interopolate open-source technology with commercial applications. Leevraging the benefits of pre-compiled libraries to facilitate the task, Computer Science, transfers mathematical concepts to programming applications in pursuit of optimal performance. There are diffrent paradigms in programming to solve problems; such as functional, procedural, imperative,logic ,and reactive.",
 		"Javascript": {
-		"Frameworks": [{"name":"Express","logo":"express-logo"},{"name":"React","logo": "react-logo"}],
+		"Frameworks": [{"name":"Express","info":"","doc":""},{"name":"React","info":"","doc":""}],
 		"Projects": [{"name": "Web Portfolio", "link": "https://", "explain": ".....","status":"success"},
 					 {"name": "Robots","link":"https://...","explain":"...haven't started, lol", "status": "danger"}]
 		},
 		"Python": {
-		"Frameworks": [{"name":"Jupyter","logo":"...."},{"name":"Dash","logo":"...."}],
+		"Frameworks": [{"name":"Jupyter","info":"","doc":""},{"name":"Dash","info":"","doc":""}],
 		"Projects": [{"name":"....", "link": ".....", "explain": ".....","status":"success"},
 			         {"name":"....", "link": ".....", "explain": ".....","status":"success"}]
 		},
 		"Java":{
-			"Frameworks": [{"name":"Maven","logo":"..."},{"name":"Spring","logo":"...."}],
+			"Frameworks": [{"name":"Maven","info":"","doc":""},{"name":"Spring","info":"","doc":""}],
 			"Projects":[{"name":"....", "link": ".....", "explain": ".....","status":"success"},
 				        {"name":"....", "link": ".....", "explain": ".....","status":"success"}]
 		},

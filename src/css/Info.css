@@ -6,7 +6,32 @@ dd {
     margin: 0;
     padding: 0 0 0.5em 0;
 }
+.info {
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px;
+}
+.info blockquote {
+    position: relative;
+    display: inline-block;
+    background: #eee;
+    padding: 40px 30px 30px 60px;
+    border-radius: 10px;
+    font-family: 'Bitter', serif;
+    color: #333;
+    text-align: left;
+
+    box-shadow: 1px 1px 1px #999,
+    2px 2px 1px #999,
+    3px 3px 1px #999;
+    transition-duration: .3s;
+}
+
 
 .header {
     font-size: 25px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
 }

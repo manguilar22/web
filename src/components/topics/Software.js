@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import {Panel,Well} from "react-bootstrap";
 import data from "../../json/data";
 import Project from "../hoc/DisplayProject";
+import Frameworks from "../hoc/Frameworks";
 import mathematica from "../../css/logos/Mathematica_Logo.svg";
 import java from "../../css/logos/Java_Logo.svg";
 import python from "../../css/logos/python-seeklogo.com.svg";
@@ -13,71 +14,65 @@ export default class Software extends Component {
         const {Python,Javascript,Java,Mathematica,info} = this.state.data;
         return(
             <div>
-                <blockquote>{info}</blockquote>
-                <Panel bsStyle={"primary"}>
+                <blockquote className={"info"}>{info}</blockquote>
+                <Panel bsStyle={"secondary"}>
                     <Panel.Heading>
-                        <Panel.Title className={"header"} toggle><img src={babel} width={50} height={50}/> Javascript</Panel.Title>
+                        <Panel.Title className={"header"} toggle><img className={"language"} src={babel}/> Javascript</Panel.Title>
                     </Panel.Heading>
-                    <Panel.Collapse>
-                        <Panel.Body>
-                            <Well>
-                            <h4>Frameworks</h4>
-                            <ol>
-                                <li>Express</li>
-                                <li>React</li>
-                                <li>Meteor</li>
-                            </ol>
-                            </Well>
-                        </Panel.Body>
+                    <Panel.Body collapsible>
+                    <h4>Frameworks</h4>
+                    {Javascript.Frameworks.map((e,idx) => <Frameworks key={idx}
+                                                            name={e.name}
+                                                            info={e.info}
+                                                            doc={e.doc}/>)}
                     {Javascript.Projects.map((e,idx) => <Project key={idx}
                                                         status={e.status}
                                                         name={e.name}
                                                         link={e.link}
                                                         explain={e.explain}/>)}
-                    </Panel.Collapse>
+                    </Panel.Body>
                 </Panel>
                 <Panel bsStyle={"secondary"}>
                     <Panel.Heading>
-                        <Panel.Title className={"header"} toggle><img src={python} width={50} height={50}/> Python</Panel.Title>
+                        <Panel.Title className={"header"} toggle><img className={"language"} src={python}/> Python</Panel.Title>
                     </Panel.Heading>
-                    <Panel.Collapse>
-                        <Panel.Body>
-                            <Well>
+                        <Panel.Body collapsible>
                             <h4>Frameworks</h4>
-                            <ol>
-                                <li>Dash</li>
-                                <li>Jupyter</li>
-                            </ol>
-                            </Well>
-                        </Panel.Body>
-                        {Python.Projects.map((e,idx) => <Project key={idx}
+                            {Python.Frameworks.map((e,idx) => <Frameworks key={idx}
+                                                                              name={e.name}
+                                                                              info={e.info}
+                                                                              doc={e.doc}/>)}
+                            {Python.Projects.map((e,idx) => <Project key={idx}
                                                                      status={e.status}
                                                                      name={e.name}
                                                                      link={e.link}
                                                                      explain={e.explain}/>)}
-                    </Panel.Collapse>
+                        </Panel.Body>
                 </Panel>
                 <Panel bsStyle={"secondary"}>
-                    <Panel.Heading><Panel.Title className={"header"} toggle><img src={java} width={50} height={50}/> Java</Panel.Title></Panel.Heading>
-                    <Panel.Collapse>
-                    <Panel.Body>
+                    <Panel.Heading><Panel.Title className={"header"} toggle><img className={"language"} src={java}/> Java</Panel.Title></Panel.Heading>
+                    <Panel.Body collapsible>
+                        <h4>Frameworks</h4>
+                        {Java.Frameworks.map((e,idx) => <Frameworks key={idx}
+                                                                          name={e.name}
+                                                                          info={e.info}
+                                                                          doc={e.doc}/>)}
                         {Java.Projects.map((e,idx) => <Project key={idx}
                                                                  status={e.status}
                                                                  name={e.name}
                                                                  link={e.link}
                                                                  explain={e.explain}/>)}
                     </Panel.Body>
-                    </Panel.Collapse>
                 </Panel>
-                <Panel bsStyle={"primary"}>
-                    <Panel.Heading><Panel.Title className={"header"} toggle><img src={mathematica} width={50} height={50}/> Mathematica</Panel.Title></Panel.Heading>
+                <Panel bsStyle={"secondary"}>
+                    <Panel.Heading><Panel.Title className={"header"} toggle><img className={"language"} src={mathematica}/> Mathematica</Panel.Title></Panel.Heading>
                 <Panel.Body collapsible>
                     <Well>
                         <h4>Wolfram|Alpha</h4>
                     </Well>
-                    {Mathematica.Projects.map((e,idx) => <Project key={idx}
-                                                                  status={e.status} name={e.name}
-                                                                  link={e.link} explain={e.explain}/>)}
+                        {Mathematica.Projects.map((e,idx) => <Project key={idx}
+                                                                      status={e.status} name={e.name}
+                                                                      link={e.link} explain={e.explain}/>)}
                 </Panel.Body>
                 </Panel>
             </div>
