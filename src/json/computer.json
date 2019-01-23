@@ -1,0 +1,39 @@
+{
+  "Containers": {
+    "Docker": [
+      {"skill": "Build Custom Images"},
+      {"skill": "Optimize custom built images by compressing cached layers."},
+      {"skill": "Link Docker containers together."},
+      {"skill": "Mount Volumes to docker containers for persistent storage"},
+      {"skill": "Expose ports to make available on host machine"},
+      {"skill": "Create multiple docker image registry on host machine."}
+    ],
+    "LXC" : [
+      {"skill": "Pull images from ubuntu or canonical's image repository"},
+      {"skill": "Start,launch,stop, and delete LXC containers"},
+      {"skill": "Install services inside containers and configure network bridge to make availble on host machine."},
+      {"skill": "Snapshot images for restoring LXC containers if corrupted."},
+      {"skill": "Create remote repository from snapshot images"}
+    ],
+    "CoreOS": [
+      {"skill": "Use pre-built docker containers from docker.hub and use as daemons"},
+      {"skill": "Use custom built docker images as daemons"},
+      {"skill": "Create and document daemon services"}
+    ]
+  },
+  "Systems" : {
+    "Linux" : [
+      {"skill" : "Use systemd to create and modify daemon services"},
+      {"skill" : "Manage resources and expose ports on a linux machine."},
+      {"skill" : "Familiar with encryption software, GPG and PGP for verify and obfuscate files and compressed archives."},
+      {"skill" : "Mount file systems and encrypt."}
+    ],
+    "FreeBSD" : [
+      {"skill" : "JAILS !!!"}
+    ],
+    "Windows" : [
+      {"skill" : "Use powershell and windows bash prompt"},
+      {"skill" : "Using simple messaging block (SMB) service for Linux and Windows interpolation."}
+    ]
+  }
+}

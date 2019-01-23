@@ -67,9 +67,6 @@ export default class Software extends Component {
                 <Panel bsStyle={"secondary"}>
                     <Panel.Heading><Panel.Title className={"header"} toggle><img className={"language"} src={mathematica}/> Mathematica</Panel.Title></Panel.Heading>
                 <Panel.Body collapsible>
-                    <Well>
-                        <h4>Wolfram|Alpha</h4>
-                    </Well>
                         {Mathematica.Projects.map((e,idx) => <Project key={idx}
                                                                       status={e.status} name={e.name}
                                                                       link={e.link} explain={e.explain}/>)}
