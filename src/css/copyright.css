@@ -9,13 +9,22 @@
 
 
 .Banner  {
+    /*
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: auto;
     overflow: visible
-
+    */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
 }
 
 footer {

@@ -33,7 +33,7 @@
     ],
     "Windows" : [
       {"skill" : "Use powershell and windows bash prompt"},
-      {"skill" : "Using simple messaging block (SMB) service for Linux and Windows interpolation."}
+      {"skill" : "Using server messaging block (SMB) service for Linux and Windows interpolation."}
     ]
   }
 }

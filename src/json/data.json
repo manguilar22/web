@@ -13,13 +13,16 @@
 		"Python": {
 		"Frameworks": [{"name":"Jupyter","info":"","doc":""},{"name":"Dash","info":"","doc":""}],
 		"Projects": [{"name":"Euclidean Distance PY", "link": ".....", "explain": "Algorithm work with the Euclidean Algorithm.","status":"success"},
+					 {"name":"Scientific Computing", "link": "https://github.com/manguilar22/ScientificComputing",
+					 "explain": "for science...", "status": "danger"},
 			         {"name":"Jupyter", "link": ".....", "explain": "Configurations and Setting for the deployment of a jupyter server. This repository purpose is to set up a jupyter server as fast as possible for collaboration efforts","status":"success"}]
 		},
 		"Java":{
 			"Frameworks": [{"name":"Maven","info":"","doc":""},{"name":"Spring","info":"","doc":""}],
-			"Projects":[{"name":"....", "link": ".....", "explain": ".....","status":"success"},
-				        {"name":"....", "link": ".....", "explain": ".....","status":"success"}]
+			"Projects":[{"name":"FinanceSpring", "link": "https://github.com/manguilar22/FinanceSpring", "explain": ".....","status":"warning"}]
 		},
-		"Mathematica": { "info": "....." , "Projects": [{"name":"...."}]}
+		"Mathematica": { "info": "....." ,
+			"Projects": [{"name":"Cryptosystems & Hash Functions","link":"https://github.com/manguilar22/DiscreteMath",
+							"explain": "A project I did for my discrete math class. Highlighting diffrent cryptosystems and hash function entropy.", "status":"success"}]}
 	}
 }

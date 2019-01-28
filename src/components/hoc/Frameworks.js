@@ -3,7 +3,7 @@ import {Well} from "react-bootstrap";
 
 const Frameworks = (props) => {
     return(
-        <Well size={"xsmall"}>
+        <Well size={"small"}>
             <dl>
                 <dt key={props.key}>{props.name}</dt>
                 <dd key={props.key}>{props.info}</dd>

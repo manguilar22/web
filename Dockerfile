@@ -1,5 +1,5 @@
 FROM node:7
-MAINTAINER label="VOID"
+MAINTAINER label="manguilar22@gmail.com"
 COPY . app/
 WORKDIR app
 RUN npm install 

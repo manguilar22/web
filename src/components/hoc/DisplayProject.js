@@ -11,8 +11,8 @@ const Project = (props) => {
                                          type={"github"}
                                          href={props.link}>{props.name}</AwesomeButtonSocial>
                 </ListGroupItem>
+            <p>{props.explain}</p>
             </ListGroup>
-            {props.explain}
         </div>
     );
 };

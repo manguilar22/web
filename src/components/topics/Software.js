@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import {Panel,Well} from "react-bootstrap";
+import {Panel} from "react-bootstrap";
 import data from "../../json/data";
 import Project from "../hoc/DisplayProject";
 import Frameworks from "../hoc/Frameworks";
