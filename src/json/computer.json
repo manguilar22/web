@@ -35,5 +35,20 @@
       {"skill" : "Use powershell and windows bash prompt"},
       {"skill" : "Using server messaging block (SMB) service for Linux and Windows interpolation."}
     ]
+  },
+  "Security":{
+    "Kali": [
+      {"skill": "use nmap utility to check open ports on live hosts"},
+      {"skill": "using nmap to execute NSE scripts and recollect and archive report"},
+      {"skill": "import nmap reports to the metasploit database"},
+      {"skill": "using nessus with collaboration with metasploit for vulnerability discovery "},
+      {"skill": "familiar with the metasploit framework"}
+    ],
+    "Tor": [
+      {"skill": "install tor on diffrent operating systems. Debian, RPM, and Freebsd. "},
+      {"skill": "configure onion services to work on host system"},
+      {"skill": "use prop224 to configure next-gen onion services for heightened security "},
+      {"skill": "use the tor network as a proxy-chaining to increase anonymity."}
+    ]
   }
 }

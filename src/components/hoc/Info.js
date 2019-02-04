@@ -8,6 +8,8 @@ import windows from "../../css/logos/Windows_logo_-_2012.svg";
 import coreos from "../../css/logos/coreos.png";
 import docker from "../../css/logos/docker.png";
 import lxc from "../../css/logos/containers.png";
+import kali from "../../css/logos/KaliLinux.png";
+import tor from "../../css/logos/TOR.png";
 import "../../css/Info.css";
 import computerSkills from "../../json/computer";
 
@@ -59,6 +61,23 @@ const Info = () => {
                     </dl>
                 </Panel.Body>
             </Panel.Collapse>
+            </Panel>
+            <Panel bsStyle={"primary"}>
+            <Panel.Heading>
+                <Panel.Title className={"header"} toggle>Security</Panel.Title>
+            </Panel.Heading>
+                <Panel.Body collapsible>
+                    <dl>
+                        <dt><img className={"logo"} src={kali}/> Kali Linux</dt>
+                        <dd>
+                            <DisplaySkills skills={computerSkills.Security.Kali}/>
+                        </dd>
+                        <dt><img className={"logo"} src={tor}/>Tor</dt>
+                        <dd>
+                            <DisplaySkills skills={computerSkills.Security.Tor}/>
+                        </dd>
+                    </dl>
+                </Panel.Body>
             </Panel>
         </div>
     );
