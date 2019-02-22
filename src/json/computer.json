@@ -29,6 +29,9 @@
       {"skill" : "Mount file systems and encrypt."}
     ],
     "FreeBSD" : [
+      {"skill" : "backup kernels and build custom kernel."},	    
+      {"skill" : "using GEOM for partioning disks and labeling disk devices"},
+      {"skill" : "use the ZFS file system for disk administration"},
       {"skill" : "JAILS !!!"}
     ],
     "Windows" : [
