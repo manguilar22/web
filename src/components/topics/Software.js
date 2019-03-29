@@ -76,9 +76,9 @@ export default class Software extends Component {
 
                     {trigger ? <AwesomeButton bubbles={true} type={"secondary"} action={this.toggle}>Certified Wolfram Technology Associate</AwesomeButton>:<DisplayCert onClick={this.toggle}/>}
 
-                        {Mathematica.Projects.map((e,idx) => <Project key={idx}
-                                                                      status={e.status} name={e.name}
-                                                                      link={e.link} explain={e.explain}/>)}
+                    {Mathematica.Projects.map((e,idx) => <Project key={idx}
+                                                                  status={e.status} name={e.name}
+                                                                  link={e.link} explain={e.explain}/>)}
                 </Panel.Body>
                 </Panel>
             </div>
