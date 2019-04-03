@@ -8,6 +8,9 @@
       {"skill": "Expose ports to make available on host machine"},
       {"skill": "Create multiple docker image registry on host machine."}
     ],
+    "Kubernetes": [
+      {"skill": "Install and configure a kubernetes cluster"}
+    ],
     "LXC" : [
       {"skill": "Pull images from ubuntu or canonical's image repository"},
       {"skill": "Start,launch,stop, and delete LXC containers"},

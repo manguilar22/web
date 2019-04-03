@@ -1,5 +1,4 @@
 import React from "react";
-import {Well} from "react-bootstrap";
 
 const Frameworks = (props) => {
     return(

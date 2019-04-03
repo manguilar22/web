@@ -10,6 +10,7 @@ import docker from "../../css/logos/docker.png";
 import lxc from "../../css/logos/containers.png";
 import kali from "../../css/logos/KaliLinux.png";
 import tor from "../../css/logos/TOR.png";
+import kubernetes from "../../css/logos/kubernetes.svg";
 import "../../css/Info.css";
 import computerSkills from "../../json/computer";
 
@@ -26,6 +27,10 @@ const Info = () => {
                         <dt><img className={"logo"} src={docker}/> Docker</dt>
                         <dd>
                             <DisplaySkills skills={computerSkills.Containers.Docker}/>
+                        </dd>
+                        <dt><img className={"logo"} src={kubernetes}/> Kubernetes</dt>
+                        <dd>
+                            <DisplaySkills skills={computerSkills.Containers.Kubernetes}/>
                         </dd>
                         <dt><img className={"logo"} src={lxc}/> LXC | LXD</dt>
                         <dd>
