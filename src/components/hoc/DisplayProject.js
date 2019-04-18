@@ -11,9 +11,10 @@ const Project = (props) => {
                                          type={"github"}
                                          href={props.link}>{props.name}</AwesomeButtonSocial>
                 </ListGroupItem>
-            <p>{props.explain}</p>
+            <p style={{fontFamily:"Rubik,sans-serif"}}>{props.explain}</p>
             </ListGroup>
         </div>
     );
 };
+
 export default Project;
