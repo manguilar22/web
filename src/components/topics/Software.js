@@ -74,7 +74,10 @@ export default class Software extends Component {
                     <Panel.Heading><Panel.Title className={"header"} toggle><img className={"language"} src={mathematica}/> Mathematica</Panel.Title></Panel.Heading>
                 <Panel.Body collapsible>
 
-                    {trigger ? <AwesomeButton bubbles={true} type={"secondary"} action={this.toggle}>Certified Wolfram Technology Associate</AwesomeButton>:<DisplayCert onClick={this.toggle}/>}
+                    {trigger ? <AwesomeButton style={{margin:"15px 15px 25px 15px"}}
+                                       bubbles={true} type={"secondary"}
+                                       action={this.toggle}>Certified Wolfram Technology Associate</AwesomeButton>
+                        :<DisplayCert onClick={this.toggle}/>}
 
                     {Mathematica.Projects.map((e,idx) => <Project key={idx}
                                                                   status={e.status} name={e.name}

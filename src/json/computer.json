@@ -33,9 +33,9 @@
     ],
     "FreeBSD" : [
       {"skill" : "backup kernels and build custom kernel."},	    
-      {"skill" : "using GEOM for partioning disks and labeling disk devices"},
+      {"skill" : "using GEOM for partitioning disks and labeling disk devices"},
       {"skill" : "use the ZFS file system for disk administration"},
-      {"skill" : "JAILS !!!"}
+      {"skill" : "create and configure jails"}
     ],
     "Windows" : [
       {"skill" : "Use powershell and windows bash prompt"},
